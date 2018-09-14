@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name MCU_Microchip_SAMD)(type Legacy)(uri ${KIPRJMOD}/library/MCU_Microchip_SAMD.lib)(options "")(descr ""))
+  (lib (name Sensor_Motion_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Sensor_Motion_Extra.lib)(options "")(descr ""))
+  (lib (name Display_Graphic_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Display_Graphic_Extra.lib)(options "")(descr ""))
+  (lib (name Device_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Device_Extra.lib)(options "")(descr ""))
 )
