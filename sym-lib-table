@@ -4,4 +4,7 @@
   (lib (name Display_Graphic_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Display_Graphic_Extra.lib)(options "")(descr ""))
   (lib (name Device_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Device_Extra.lib)(options "")(descr ""))
   (lib (name Memory_Flash_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Memory_Flash_Extra.lib)(options "")(descr ""))
+  (lib (name Sensor_Audio_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Sensor_Audio_Extra.lib)(options "")(descr ""))
+  (lib (name Amplifier_Audio_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Amplifier_Audio_Extra.lib)(options "")(descr ""))
+  (lib (name RF_AM_FM_Extra)(type Legacy)(uri ${KIPRJMOD}/library/RF_AM_FM_Extra.lib)(options "")(descr ""))
 )

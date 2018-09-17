@@ -4,4 +4,6 @@
   (lib (name Buzzer_Beeper_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Buzzer_Beeper_Extra.pretty)(options "")(descr ""))
   (lib (name LED_SMD_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/LED_SMD_Extra.pretty)(options "")(descr ""))
   (lib (name Display_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Display_Extra.pretty)(options "")(descr ""))
+  (lib (name Sensor_Audio_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/Sensor_Audio_Extra.pretty)(options "")(descr ""))
+  (lib (name RF_Antenna_Extra)(type KiCad)(uri ${KIPRJMOD}/modules/RF_Antenna_Extra.pretty)(options "")(descr ""))
 )

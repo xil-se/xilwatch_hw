@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 88)
+    (drawings 84)
     (tracks 0)
     (zones 0)
     (modules 55)
@@ -2694,10 +2694,6 @@
       (net 3 GND) (zone_connect 0))
   )
 
-  (gr_line (start 333.2 84) (end 296 84) (layer Margin) (width 0.12) (tstamp 5B9F311B))
-  (gr_line (start 333.2 115.8) (end 333.2 84) (layer Margin) (width 0.12) (tstamp 5B9F3118))
-  (gr_line (start 296 115.8) (end 333.2 115.8) (layer Margin) (width 0.12) (tstamp 5B9F311E))
-  (gr_line (start 296 84) (end 296 115.8) (layer Margin) (width 0.12) (tstamp 5B9F3115))
   (dimension 25.0002 (width 0.12) (layer Margin)
     (gr_text "25.000 mm" (at 248.330915 68.673357 89.7708181) (layer Margin)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2803,7 +2799,7 @@
   (gr_line (start 244.6 65.5) (end 244.6 102.5) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 203.9 59) (end 240.3 59) (layer Edge.Cuts) (width 0.2))
   (dimension 50 (width 0.12) (layer F.SilkS) (tstamp 5B9DF527)
-    (gr_text "50.000 mm" (at 194.03 84 270) (layer F.SilkS) (tstamp 5B9DF527)
+    (gr_text "50.000 mm" (at 194.03 84 270) (layer F.SilkS) (tstamp 5B9DF535)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 198 109) (xy 194.713579 109)))
