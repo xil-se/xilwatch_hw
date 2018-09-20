@@ -14,50 +14,39 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5BB51A34
-P 6200 7250
-F 0 "J2" H 6200 7450 50  0000 C CNN
-F 1 "Conn_SWD" V 6300 7200 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6200 7250 50  0001 C CNN
-F 3 "~" H 6200 7250 50  0001 C CNN
-	1    6200 7250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6400 7150 6450 7150
+	6400 7600 6450 7600
 Wire Wire Line
-	6400 7250 6450 7250
+	6400 7300 6600 7300
 Wire Wire Line
-	6400 7350 6450 7350
+	6400 7500 6450 7500
 Wire Wire Line
-	6400 7450 6450 7450
+	6400 7400 6600 7400
 $Comp
 L power:VDD #PWR014
 U 1 1 5BB70814
-P 6450 7150
-F 0 "#PWR014" H 6450 7000 50  0001 C CNN
-F 1 "VDD" V 6467 7278 50  0000 L CNN
-F 2 "" H 6450 7150 50  0001 C CNN
-F 3 "" H 6450 7150 50  0001 C CNN
-	1    6450 7150
+P 6450 7600
+F 0 "#PWR014" H 6450 7450 50  0001 C CNN
+F 1 "VDD" V 6450 7750 50  0000 L CNN
+F 2 "" H 6450 7600 50  0001 C CNN
+F 3 "" H 6450 7600 50  0001 C CNN
+	1    6450 7600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5BB70AB4
-P 6450 7350
-F 0 "#PWR015" H 6450 7100 50  0001 C CNN
-F 1 "GND" V 6455 7222 50  0000 R CNN
-F 2 "" H 6450 7350 50  0001 C CNN
-F 3 "" H 6450 7350 50  0001 C CNN
-	1    6450 7350
+P 6450 7500
+F 0 "#PWR015" H 6450 7250 50  0001 C CNN
+F 1 "GND" V 6450 7350 50  0000 R CNN
+F 2 "" H 6450 7500 50  0001 C CNN
+F 3 "" H 6450 7500 50  0001 C CNN
+	1    6450 7500
 	0    -1   -1   0   
 $EndComp
-Text Label 6450 7250 0    50   ~ 0
+Text Label 6600 7300 0    50   ~ 0
 SWDCLK
-Text Label 6450 7450 0    50   ~ 0
+Text Label 6600 7400 0    50   ~ 0
 SWDIO
 $Bitmap
 Pos 9050 6850
@@ -1433,7 +1422,7 @@ L Device:R_Small R1
 U 1 1 5BACE80C
 P 5200 1750
 F 0 "R1" V 5150 1850 50  0000 L CNN
-F 1 "360R" V 5150 1650 50  0000 R CNN
+F 1 "22R" V 5150 1650 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 1750 50  0001 C CNN
 F 3 "~" H 5200 1750 50  0001 C CNN
 	1    5200 1750
@@ -1444,7 +1433,7 @@ L Device:R_Small R2
 U 1 1 5BACEBF5
 P 5200 1850
 F 0 "R2" V 5150 1950 50  0000 L CNN
-F 1 "360R" V 5150 1750 50  0000 R CNN
+F 1 "22R" V 5150 1750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 1850 50  0001 C CNN
 F 3 "~" H 5200 1850 50  0001 C CNN
 	1    5200 1850
@@ -1466,71 +1455,60 @@ Text Label 5450 2150 2    50   ~ 0
 SWDCLK
 Text Label 5450 2250 2    50   ~ 0
 SWDIO
-Text Label 6900 3150 0    50   ~ 0
+Text Label 6750 4450 0    50   ~ 0
 BTN_UP
-Text Label 6900 3250 0    50   ~ 0
+Text Label 6750 1650 0    50   ~ 0
 BTN_DOWN
-Text Label 6900 3350 0    50   ~ 0
+Text Label 6750 2950 0    50   ~ 0
 BTN_SELECT
-Text Label 6900 3450 0    50   ~ 0
+Text Label 6750 5350 0    50   ~ 0
 BTN_BACK
-Text Label 6900 1950 0    50   ~ 0
+Text Label 6750 2050 0    50   ~ 0
 LED1_R
-Text Label 6900 2050 0    50   ~ 0
+Text Label 6750 2150 0    50   ~ 0
 LED1_G
-Text Label 6900 2150 0    50   ~ 0
+Text Label 6750 4950 0    50   ~ 0
 LED1_B
-Text Label 6900 2250 0    50   ~ 0
+Text Label 6750 3350 0    50   ~ 0
 LED2_R
-Text Label 6900 2350 0    50   ~ 0
+Text Label 6750 4350 0    50   ~ 0
 LED2_G
-Text Label 6900 2450 0    50   ~ 0
+Text Label 6750 4650 0    50   ~ 0
 LED2_B
-Text Label 6900 2550 0    50   ~ 0
+Text Label 6750 5850 0    50   ~ 0
 LED3_R
-Text Label 6900 2650 0    50   ~ 0
+Text Label 6750 5650 0    50   ~ 0
 LED3_G
-Text Label 6900 2750 0    50   ~ 0
+Text Label 6750 1450 0    50   ~ 0
 LED3_B
-Text Label 6900 2850 0    50   ~ 0
+Text Label 6750 5250 0    50   ~ 0
 LED4_R
-Text Label 6900 2950 0    50   ~ 0
+Text Label 6750 2350 0    50   ~ 0
 LED4_G
-Text Label 6900 3050 0    50   ~ 0
+Text Label 6750 1850 0    50   ~ 0
 LED4_B
-Text Label 6900 1850 0    50   ~ 0
+Text Label 6750 5450 0    50   ~ 0
 VIBRATOR
-Text Label 6900 1750 0    50   ~ 0
+Text Label 6750 4750 0    50   ~ 0
 SPEAKER_SD
-Text Label 6900 1350 0    50   ~ 0
-ACCEL_SDA
-Text Label 6900 1450 0    50   ~ 0
-ACCEL_SCL
-Text Label 6900 1550 0    50   ~ 0
+Text Label 6750 3450 0    50   ~ 0
+I2C_SDA
+Text Label 6750 3250 0    50   ~ 0
+I2C_SCL
+Text Label 6750 4550 0    50   ~ 0
 SPEAKER
-Text Label 6900 1650 0    50   ~ 0
+Text Label 6750 3050 0    50   ~ 0
 ACCEL_INT
-Text Label 6900 3550 0    50   ~ 0
+Text Label 6750 2250 0    50   ~ 0
 EINK_SCK
-Text Label 6900 3650 0    50   ~ 0
+Text Label 6750 5150 0    50   ~ 0
 EINK_MOSI
-Text Label 6900 3750 0    50   ~ 0
+Text Label 6750 1950 0    50   ~ 0
 EINK_DC
-Text Label 6900 3850 0    50   ~ 0
+Text Label 6750 3850 0    50   ~ 0
 EINK_CS
-Text Label 6900 3950 0    50   ~ 0
+Text Label 6750 3750 0    50   ~ 0
 EINK_BUSY
-$Comp
-L Memory_Flash_Extra:26VF0168IS2AE U3
-U 1 1 5CE630DD
-P 9900 1600
-F 0 "U3" H 9900 2117 50  0000 C CNN
-F 1 "26VF0168IS2AE" H 9900 2026 50  0000 C CNN
-F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 10400 1650 50  0001 C CNN
-F 3 "https://www.mouser.se/datasheet/2/268/25017A-709039.pdf" H 9900 1100 50  0001 C CNN
-	1    9900 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9450 1350 9400 1350
 Wire Wire Line
@@ -1585,19 +1563,19 @@ Text Label 10400 1750 0    50   ~ 0
 QSPI_CS
 Text Label 10400 1850 0    50   ~ 0
 QSPI_CLK
-Text Label 6900 4150 0    50   ~ 0
+Text Label 6750 4050 0    50   ~ 0
 QSPI_IO0
-Text Label 6900 4250 0    50   ~ 0
+Text Label 6750 4250 0    50   ~ 0
 QSPI_IO1
-Text Label 6900 4350 0    50   ~ 0
+Text Label 6750 4150 0    50   ~ 0
 QSPI_IO2
-Text Label 6900 4450 0    50   ~ 0
+Text Label 6750 1350 0    50   ~ 0
 QSPI_IO3
-Text Label 6900 4550 0    50   ~ 0
+Text Label 6750 1550 0    50   ~ 0
 QSPI_CS
-Text Label 6900 4650 0    50   ~ 0
+Text Label 6750 3950 0    50   ~ 0
 QSPI_CLK
-Text Label 6900 4050 0    50   ~ 0
+Text Label 6750 1750 0    50   ~ 0
 EINK_RESET
 $Sheet
 S 1300 4300 1200 2700
@@ -2036,9 +2014,9 @@ VIBRATOR
 Text Label 1250 6700 2    50   ~ 0
 SPEAKER_SD
 Text Label 2550 6300 0    50   ~ 0
-ACCEL_SDA
+I2C_SDA
 Text Label 1250 6300 2    50   ~ 0
-ACCEL_SCL
+I2C_SCL
 Text Label 1250 6600 2    50   ~ 0
 SPEAKER
 Text Label 2550 6400 0    50   ~ 0
@@ -2055,4 +2033,120 @@ Text Label 2550 5700 0    50   ~ 0
 EINK_BUSY
 Text Label 1250 6100 2    50   ~ 0
 EINK_RESET
+$Comp
+L Memory_Flash_Extra:IS25LP128F U3
+U 1 1 5D2DFCAA
+P 9900 1600
+F 0 "U3" H 9900 2115 50  0000 C CNN
+F 1 "IS25LP128F" H 9900 2024 50  0000 C CNN
+F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm" H 9900 1100 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/198/25LP-WP128F-1146765.pdf" H 9900 1000 50  0001 C CNN
+	1    9900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D305E20
+P 6400 7600
+F 0 "TP2" V 6400 7850 50  0000 C CNN
+F 1 "TP_VDD" V 6296 7674 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6600 7600 50  0001 C CNN
+F 3 "~" H 6600 7600 50  0001 C CNN
+	1    6400 7600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D305EB4
+P 6400 7300
+F 0 "TP3" V 6400 7550 50  0000 C CNN
+F 1 "TP_SWDCLK" V 6296 7374 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6600 7300 50  0001 C CNN
+F 3 "~" H 6600 7300 50  0001 C CNN
+	1    6400 7300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D305EE2
+P 6400 7500
+F 0 "TP1" V 6400 7750 50  0000 C CNN
+F 1 "TP_GND" V 6296 7574 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6600 7500 50  0001 C CNN
+F 3 "~" H 6600 7500 50  0001 C CNN
+	1    6400 7500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D305F0E
+P 6400 7400
+F 0 "TP4" V 6400 7650 50  0000 C CNN
+F 1 "TP_SWDIO" V 6296 7474 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6600 7400 50  0001 C CNN
+F 3 "~" H 6600 7400 50  0001 C CNN
+	1    6400 7400
+	0    -1   1    0   
+$EndComp
+NoConn ~ 6750 5050
+NoConn ~ 6750 4850
+NoConn ~ 6750 3550
+NoConn ~ 6750 3150
+NoConn ~ 6750 2850
+NoConn ~ 6750 2650
+NoConn ~ 6750 2550
+NoConn ~ 6750 2450
+NoConn ~ 6750 2750
+NoConn ~ 6750 5750
+NoConn ~ 6750 5550
+NoConn ~ 6750 3650
+$Comp
+L Connector_Badgelife:SAO X1
+U 1 1 5D44F2D7
+P 9900 3150
+F 0 "X1" H 9900 3487 50  0000 C CNN
+F 1 "SAO" H 9900 3381 50  0000 C CNN
+F 2 "Connector_Badgelife:SAO-2x2" H 9800 3150 60  0001 C CNN
+F 3 "" H 9800 3150 60  0001 C CNN
+	1    9900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3100 9450 3100
+Wire Wire Line
+	9450 3100 9450 3050
+Wire Wire Line
+	9500 3200 9450 3200
+Wire Wire Line
+	9450 3200 9450 3250
+Wire Wire Line
+	10300 3100 10350 3100
+Wire Wire Line
+	10300 3200 10350 3200
+$Comp
+L power:VDD #PWR057
+U 1 1 5D4638AD
+P 9450 3050
+F 0 "#PWR057" H 9450 2900 50  0001 C CNN
+F 1 "VDD" H 9467 3223 50  0000 C CNN
+F 2 "" H 9450 3050 50  0001 C CNN
+F 3 "" H 9450 3050 50  0001 C CNN
+	1    9450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR058
+U 1 1 5D4638D8
+P 9450 3250
+F 0 "#PWR058" H 9450 3000 50  0001 C CNN
+F 1 "GND" H 9455 3077 50  0000 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
+	1    0    0    -1  
+$EndComp
+Text Label 10350 3100 0    50   ~ 0
+I2C_SDA
+Text Label 10350 3200 0    50   ~ 0
+I2C_SCL
 $EndSCHEMATC

@@ -6,4 +6,5 @@
   (lib (name Sensor_Audio_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Sensor_Audio_Extra.lib)(options "")(descr ""))
   (lib (name Amplifier_Audio_Extra)(type Legacy)(uri ${KIPRJMOD}/library/Amplifier_Audio_Extra.lib)(options "")(descr ""))
   (lib (name RF_Bluetooth_Extra)(type Legacy)(uri ${KIPRJMOD}/library/RF_Bluetooth_Extra.lib)(options "")(descr ""))
+  (lib (name Connector_Badgelife)(type Legacy)(uri ${KIPRJMOD}/library/Connector_Badgelife.lib)(options "")(descr ""))
 )

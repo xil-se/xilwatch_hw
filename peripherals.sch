@@ -82,10 +82,10 @@ U 1 1 5D0C1A3E
 P 4050 1600
 AR Path="/5D0C1A3E" Ref="LS?"  Part="1" 
 AR Path="/5D09C829/5D0C1A3E" Ref="LS1"  Part="1" 
-F 0 "LS1" H 4220 1596 50  0000 L CNN
-F 1 "Speaker" H 4220 1505 50  0000 L CNN
-F 2 "Symbol:CE-Logo_8.5x6mm_SilkScreen" H 4050 1400 50  0001 C CNN
-F 3 "~" H 4040 1550 50  0001 C CNN
+F 0 "LS1" H 3950 1350 50  0000 L CNN
+F 1 "CMT-5023S-SMT" H 4220 1505 50  0001 L CNN
+F 2 "Buzzer_Beeper_Extra:CMT-5023S" H 4050 1400 50  0001 C CNN
+F 3 "https://www2.mouser.com/datasheet/2/670/cmt-5023s-smt-1310092.pdf" H 4040 1550 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
 $EndComp
@@ -368,7 +368,7 @@ AR Path="/5D0EC31B" Ref="U?"  Part="1"
 AR Path="/5D09C829/5D0EC31B" Ref="U6"  Part="1" 
 F 0 "U6" H 5300 7015 50  0000 C CNN
 F 1 "GDEW0154T8" H 5300 6924 50  0000 C CNN
-F 2 "" H 5450 5500 50  0001 C CNN
+F 2 "Connector_GoodDisplay:GoodDisplay_24P-0.5SH_1x24-Horizontal" H 5450 5500 50  0001 C CNN
 F 3 "" H 5450 5500 50  0001 C CNN
 	1    5300 5850
 	1    0    0    -1  
@@ -756,9 +756,9 @@ AR Path="/5D0EC3DE" Ref="L?"  Part="1"
 AR Path="/5D09C829/5D0EC3DE" Ref="L1"  Part="1" 
 F 0 "L1" V 2100 5800 50  0000 C CNN
 F 1 "10uH 1A" V 1950 5800 50  0000 C CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx_HandSoldering" H 2000 5800 50  0001 C CNN
-F 3 "https://www2.mouser.com/datasheet/2/396/wound04_e-1290968.pdf" H 2000 5800 50  0001 C CNN
-F 4 "NRS6012T100" V 2000 5800 50  0001 C CNN "Part"
+F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-3030" H 2000 5800 50  0001 C CNN
+F 3 "https://www2.mouser.com/datasheet/2/3/AISC-1210HS-14392.pdf" H 2000 5800 50  0001 C CNN
+F 4 "AISC-1210HS-100K-T2" V 2000 5800 50  0001 C CNN "Part"
 	1    2000 5800
 	0    1    -1   0   
 $EndComp
@@ -2812,4 +2812,6 @@ CA CA EA CA AA EA 8A CA AA D2 F2 8A 76 AD 5B B0 9D 11 42 EE 28 2B AF 8C 4B 4C 4E
 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 3150 4100 0    50   ~ 0
+Addr: 0x19
 $EndSCHEMATC
