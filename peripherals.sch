@@ -82,10 +82,10 @@ U 1 1 5D0C1A3E
 P 4050 1600
 AR Path="/5D0C1A3E" Ref="LS?"  Part="1" 
 AR Path="/5D09C829/5D0C1A3E" Ref="LS1"  Part="1" 
-F 0 "LS1" H 4220 1596 50  0000 L CNN
-F 1 "Speaker" H 4220 1505 50  0000 L CNN
-F 2 "Symbol:CE-Logo_8.5x6mm_SilkScreen" H 4050 1400 50  0001 C CNN
-F 3 "~" H 4040 1550 50  0001 C CNN
+F 0 "LS1" H 3950 1350 50  0000 L CNN
+F 1 "CMT-5023S-SMT" H 4220 1505 50  0001 L CNN
+F 2 "Buzzer_Beeper_Extra:CMT-5023S" H 4050 1400 50  0001 C CNN
+F 3 "https://www2.mouser.com/datasheet/2/670/cmt-5023s-smt-1310092.pdf" H 4040 1550 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
 $EndComp
@@ -368,7 +368,7 @@ AR Path="/5D0EC31B" Ref="U?"  Part="1"
 AR Path="/5D09C829/5D0EC31B" Ref="U6"  Part="1" 
 F 0 "U6" H 5300 7015 50  0000 C CNN
 F 1 "GDEW0154T8" H 5300 6924 50  0000 C CNN
-F 2 "" H 5450 5500 50  0001 C CNN
+F 2 "Connector_GoodDisplay:GoodDisplay_24P-0.5SH_1x24-Horizontal" H 5450 5500 50  0001 C CNN
 F 3 "" H 5450 5500 50  0001 C CNN
 	1    5300 5850
 	1    0    0    -1  
